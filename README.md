@@ -1,54 +1,54 @@
-# ✨ Dioxus Todo App
+# ✨ Aplikasi Daftar Tugas
 
-A modern, fast, and beautiful Todo List application built with **Rust** and the **Dioxus** framework. This app supports both **Desktop** and **Web** platforms with seamless data persistence.
+Aplikasi Daftar Tugas yang modern, cepat, dan cantik dibangun dengan **Rust** dan framework **Dioxus**. Aplikasi ini mendukung platform **Desktop** dan **Web** dengan penyimpanan data yang konsisten dan mulus.
 
-## 🚀 Features
+## 🚀 Fitur
 
-- **💾 Persistence**: Your tasks are saved automatically!
-  - **Desktop**: Saved to `todos.json` in the project root.
-  - **Web**: Saved to the browser's `LocalStorage`.
-- **🔍 Filtering**: Easily switch between **All**, **Active**, and **Completed** tasks.
-- **✏️ Inline Editing**: Double-click any task to edit its text instantly.
-- **🎨 Modern UI**: A premium dark-themed design with smooth animations and glassmorphism effects.
-- **📱 Cross-Platform**: Runs as a native desktop app or in your favorite web browser.
+- **💾 Penyimpanan Otomatis (Persistence)**: Tugas Anda disimpan secara otomatis!
+  - **Desktop**: Disimpan ke file `todos.json` di direktori utama (root) proyek.
+  - **Web**: Disimpan ke `LocalStorage` pada peramban (browser) Anda.
+- **🔍 Penyaringan Tugas (Filtering)**: Beralih dengan mudah antara tugas **Semua (All)**, **Aktif (Active)**, dan **Selesai (Completed)**.
+- **✏️ Edit Langsung (Inline Editing)**: Klik ganda (double-click) pada baris tugas mana saja untuk mengedit teksnya secara langsung.
+- **🎨 Antarmuka (UI) Modern**: Desain premium bertema gelap dengan animasi yang halus dan efek *glassmorphism*.
+- **📱 Lintas Platform**: Berjalan sebagai aplikasi desktop native atau di peramban web favorit Anda.
 
-## 🛠️ Tech Stack
+## 🛠️ Teknologi yang Digunakan
 
-- **Language**: [Rust](https://www.rust-lang.org/)
+- **Bahasa**: [Rust](https://www.rust-lang.org/)
 - **Framework**: [Dioxus](https://dioxuslabs.com/)
-- **Serialization**: [Serde](https://serde.rs/) & `serde_json`
-- **Styling**: Vanilla CSS with modern best practices.
+- **Serialisasi**: [Serde](https://serde.rs/) & `serde_json`
+- **Gaya (Styling)**: CSS Vanilla dengan standar modern terbaik.
 
-## 🏃 How to Run
+## 🏃 Cara Menjalankan Aplikasi
 
-### Prerequisites
+### Prasyarat
 
-Ensure you have Rust installed. If not, get it at [rustup.rs](https://rustup.rs/).
+Pastikan Anda telah menginstal Rust. Jika belum, Anda bisa mengunduhnya di [rustup.rs](https://rustup.rs/).
 
-### 🖥️ Desktop Version
+### 🖥️ Versi Desktop
 
-Simply run:
+Cukup jalankan perintah berikut di terminal:
 ```bash
 cargo run
 ```
 
-### 🌐 Web Version (Browser)
+### 🌐 Versi Web (Browser)
 
-1. Install the Dioxus CLI:
+1. Instal Dioxus CLI terlebih dahulu:
    ```bash
    cargo install dioxus-cli
    ```
-2. Serve the app:
+2. Jalankan aplikasi web (serve):
    ```bash
    dx serve
    ```
-3. Open your browser at `http://localhost:8080`.
+3. Buka peramban (browser) Anda dan akses alamat `http://localhost:8080`.
 
-## 📂 Project Structure
+## 📂 Struktur Proyek
 
-- `src/main.rs`: Core application logic and state management.
-- `style.css`: Custom premium styles and animations.
-- `Cargo.toml`: Project dependencies and configuration.
+- `src/main.rs`: Logika inti aplikasi dan manajemen *state* (status).
+- `style.css`: Gaya premium kustom dan animasi UI.
+- `Cargo.toml`: Daftar dependensi dan konfigurasi proyek Rust.
 
---- 
-Built with ❤️ using [Dioxus](https://dioxuslabs.com/)
+---
+Dibuat dengan ❤️ menggunakan [Dioxus](https://dioxuslabs.com/)
