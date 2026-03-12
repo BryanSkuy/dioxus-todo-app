@@ -50,5 +50,5 @@ cargo run
 - `style.css`: Custom premium styles and animations.
 - `Cargo.toml`: Project dependencies and configuration.
 
----
+--- 
 Built with ❤️ using [Dioxus](https://dioxuslabs.com/)
